@@ -12,8 +12,6 @@ html, body {
 	z-index: 99;
 }
 
-
-
 #menu ul {
 	list-style: none;
 	margin: 0;
@@ -165,5 +163,13 @@ video#bgvid {
         width: auto; height: auto; z-index: -100;
         background: url(polina.jpg) no-repeat;
         background-size: cover;
+}
+
+.imagebox .hovershow {
+	display:none;
+}
+
+.imagebox:hover .hovershow {
+	display: inline;
 }
 

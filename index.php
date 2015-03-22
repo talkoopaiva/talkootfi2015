@@ -47,20 +47,45 @@
     </section>
 
     <section id="esimerkkeja">
-      <div class="example" style="background-image: url(temp1.png);">
-	Rakkautta Rautalammin raitille
+      <div class="imagebox example example-alt" style="background-image: url(temp1.png);">
+	<b>Rakkautta Rautalammin raitille</b>
+	<br/><br/>
+	<div class="hovershow">
+		"Meillä on luja ja tiivis yhteisö joka ei ainoastaan puhu vaan myös tekee asioita yhteen hiileen!" - Jarna 
+		<br/><br/>
+		Peräti joka kymmenes rautalammilainen osallistui Rakkautta Raitille! –talkoisiin. Tänä vuonna Rautalammilla talkoillaan teemalla Rakkautta Rautalammille - talkoot kaikille.
+	</div>
       </div>
 
-      <div class="example example-alt" style="background-image: url(temp2.png);">
-	Otaniemen paljutalkoot
+      <div class="imagebox example example-alt" style="background-image: url(temp2.png);">
+	<b>Otaniemen paljutalkoot</b>
+	<br/><br/>
+	<div class="hovershow">
+		"Vihdoin saimme ihmiset liikkeelle hyvän tarkoituksen eteen. Nyt paljusta saa nauttia myös tulevat opiskelijat." - Heikki
+		<br/><br/>
+		Teekkarit rakensivat talkoovoimin terassin yhteisen vuokratilan Rantasaunan uutta paljua varten.
+	</div>
       </div>
 
-      <div class="example" style="background-image: url(temp3.png);">
-	Töölö siistiksi
+      <div class="imagebox example example-alt" style="background-image: url(temp3.png);">
+	<b>Töölö siistiksi</b>
+	<br/><br/>
+	<div class="hovershow">
+		"Piti lähteä jo treeneihin, mutta tähän jää koukkuun! Toivottavasti näitä järjestetään lisää!" - Jonna
+		<br/><br/>
+		Helsingin Taka-Töölössä siivottiin pitkin päivää puistoja talkoovoimin Helsingin kaupungin tarjoamilla roskapihdeillä ja jätesäkeillä.
+	</div>
       </div>
 
-      <div class="example example-alt" style="background-image: url(temp4.png);">
-	tanssitalkoot
+      <div class="imagebox example example-alt" style="background-image: url(temp4.png);">
+	<b>Lasten taidetalkoot</b>
+	<br/><br/>
+	<div class="hovershow">
+		"Voiko maalata vielä yhden lisää?"<br/>
+		- Aava
+		<br/><br/>
+		Lasten taidetalkoissa Helsingissä lapset pääsivät maalaamaan taideteoksia, joista järjestettiin näyttely Töölön juhlapäivillä.
+	</div>
       </div>
     </section>
 
