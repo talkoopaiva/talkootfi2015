@@ -8,7 +8,7 @@
 -->
 
 <div style="height: 100%"></div>
-<video autoplay loop poster="polina.jpg" id="bgvid">
+<video autoplay loop poster="" id="bgvid">
 	<source src="taustavideo.mp4" type="video/mp4">
 </video>
 
@@ -21,42 +21,6 @@ video#bgvid {
 	background-size: cover;
 }
 </style>
-
-<!-- OLD VIDEO MEREEN
-<script src="//vjs.zencdn.net/4.3/video.js"></script>
-<script src="http://campusseminar.com/wp-content/themes/Campus/js/imagesloaded.pkgd.min.js"></script>
-<script src="http://campusseminar.com/wp-content/themes/Campus/js/bigvideo.js"></script>
-
-<script type="text/javascript">
- 
-  $j=jQuery.noConflict();
- 
-  $j(document).ready(function($) {
-                
-      $(function() {
-          var BV = new $.BigVideo();
-          BV.init();
-          BV.show([
-              { 
-              type: 'video/mp4', 
-              src: 'taustavideo.mp4' 
-              }, 
-              { 
-              type: 'video/webm', 
-              src: 'http://campusseminar.com/wp-content/themes/Campus/videos/20141008_DREAMDO_Campus_seminaari_20s_1_online.webmhd.webm' 
-              }, 
-              { 
-              type: 'video/ogg', 
-              src: 'http://campusseminar.com/wp-content/themes/Campus/videos/20141008_DREAMDO_Campus_seminaari_20s_2_online.ogv' 
-              }
-          ], 
-          {ambient:true});
-      });
-    
-  });
-  
-</script>
---> 
 
     <section id="header">
 
