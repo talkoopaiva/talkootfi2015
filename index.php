@@ -1,26 +1,10 @@
 <?php include 'header.html';?>
 
-<!-- wtf is this?! :) 
-    <script>
-    var p = $( "li:first" );
-    $( "li:last" ).text( "scrollTop:" + p.scrollTop() );
-    </script>
--->
+    <div style="height: 100%"></div>
 
-<div style="height: 100%"></div>
-<video autoplay loop poster="" id="bgvid">
+    <video autoplay loop poster="" id="bgvid">
 	<source src="taustavideo.mp4" type="video/mp4">
-</video>
-
-<style>
-video#bgvid {
-	position: absolute; right: 0; bottom: 0;
-	min-width: 100%; min-height: 100%;
-	width: auto; height: auto; z-index: -100;
-	background: url(polina.jpg) no-repeat;
-	background-size: cover;
-}
-</style>
+    </video>
 
     <section id="header">
       <div id="header-contents">
@@ -28,7 +12,6 @@ video#bgvid {
             <a href="#talkoopaiva" class="btn btn-lg btn-primary">Lue lisää</a>
       </div>
     </section>
-
 
     <section id="talkoopaiva">
       <div class="container">
