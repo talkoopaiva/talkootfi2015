@@ -95,7 +95,7 @@
           <div class="col-md-6 col-md-offset-3 text-center">
             <h1>Järjestä talkoot 16.5.</h1>
             <p class="lead">Talkoot on ainutlaatuinen tapa kerätä porukka koolle, osallistua, pitää hauskaa ja luoda yhdessä. Tule mukaan!</p>
-            <a href="?s=jarjesta" class="btn btn-lg btn-primary">Järjestä talkoot</a>
+            <a href="kartta.php?url=/fi/uusi/?mode=talkoot" class="btn btn-lg btn-primary">Järjestä talkoot</a>
             <p><br><br><a href="#esimerkkeja">Lue lisää talkoista</a></p>
           </div>
         </div>
@@ -163,7 +163,7 @@
             <p class="lead">Yhteiskunnan muuttuessa talkooperinne mukautuu edelleen. Talkoohenki on näkynyt vahvasti esimerkiksi suomalaisen peliteollisuuden juurissa, musiikki- ja kaupunkitapahtumien synnyssä ja startup-opiskelijatoiminnassa. Esimerkiksi Slush-tapahtumaa oli mukana järjestämässä yli 1500 vapaaehtoista.
             Talkoohengen ylläpito vaatii aktiivista työtä ja uusien vapaaehtoisuuden muotojen kunnioitusta.</p>
             <br><br><br>
-            <p><a href="?s=jarjesta" class="btn btn-lg btn-primary">Järjestä talkoot</a></p>
+            <p><a href="kartta.php?url=/fi/uusi/?mode=talkoot" class="btn btn-lg btn-primary">Järjestä talkoot</a></p>
 
           </div>
         </div>
