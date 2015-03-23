@@ -1,41 +1,57 @@
-<div id="fb-footer" class="">
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-5">
+    <footer id="footer">
 
-				<strong>Tilaa Talkoopäivän uutiskirje</strong>
-				<form action="http://talkoot.us3.list-manage.com/subscribe/post?u=0b15d2017055898bcc442205d&amp;id=edfc28561e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-					<div class="input-group" style="margin-top: 10px;">
+	    <div id="fb-footer">
+	      <div class="container">
+	        <div class="row">
+	          <div class="col-md-6">
+
+	          	 <h3>Seuraa talkoopäivää</h3>			
+
+	          	 <p class="lead">Saat tuoreimmat uutiset Talkoopäivästä ja järjestettävistä talkoista seuraamalla meitä
+	          	 Facebookissa tai tilaamalla uutiskirjeemme. Lähetämme sähköpostia noin kerran kuussa.</p>
+
+	          	 <form action="http://talkoot.us3.list-manage.com/subscribe/post?u=0b15d2017055898bcc442205d&amp;id=edfc28561e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div class="input-group" style="margin-top: 10px; margin-right: 50px;">
 					  <div style="position: absolute; left: -5000px;"><input type="text" name="b_0b15d2017055898bcc442205d_edfc28561e" value=""></div>
-				      <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="sähköpostiosoitteesi" class="form-control" required>
+				      <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Sähköpostiosoitteesi" class="form-control email-subs" required>
 				      <span class="input-group-btn">
-				        <button class="btn btn-default" name="subscribe" type="submit">Tilaa uutiskirje</button>
+				        <button class="btn btn-default email-subs" name="subscribe" type="submit">Tilaa uutiskirje</button>
 				      </span>
 				    </div>
 
+				      <br><br>
 				</form>
 
 
-			</div>
-			<div class="col-sm-3">
-				<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ftalkoopaiva&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=114329478669702" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe>
-			</div>
-			<div class="col-sm-4">
-				<br>
-				<a href="haaste.php" class="btn btn-default">Haasta kaverisi talkoisiin</a>
-				<a href="mailto:info@talkoot.fi" class="btn btn-success">Ota yhteyttä!</a>
+				</div>
+				<div class="col-md-6">
 
-			</div>
-		</div>
-		<div class="row">
-		  <div class="col-md-12">
-	            <p>Talkoopäivän järjestää Talkoopäivä ry. Lue lisää yhdistyksestä. Tule mukaan toimintaan</p>
-	            <p>Yhteistyössä</p>
+	              <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ftalkoopaiva&amp;width=900&amp;height=280&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=114329478669702" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:200px;" allowTransparency="true"></iframe>
 	          </div>
-		</div>
-	</div>
-</div>
+
+	        </div>
+	      </div>
+	    </div>
+
+
+	    <div id="text-footer">
+
+		<div class="container">
+	        <div class="row">
+	          <div class="col-md-8">
+	            <p>Talkoopäivä on valtakunnallinen, vapaaehtoisvoimin etenevä liike, jonka tavoitteena on innostaa ihmiset tekemään enemmän yhdessä ja vahvistaa suomalaista tekemisen kulttuuria. Talkoopäivän järjestää Talkoopäivä ry. </p>
+
+	            <p><a href="mailto:info@talkoot.fi">Ota yhteyttä</a> | <a href="https://www.facebook.com/talkoopaiva">Facebook</a> | <a href="https://www.instagram.com/talkoopaiva">Instagram</a></p>
+	          </div>
+	          <div class="col-md-4 text-right">
+				<a href="haaste.php" class="btn btn-default">Haasta kaverisi talkoisiin</a>
+	          </div>
+
+	        </div>
+	      </div>
+	    </div>
+
+    </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -49,6 +65,20 @@
         ga('create', 'UA-47400935-1', 'talkoot.fi');
         ga('send', 'pageview');
     </script>
+
+	<!-- Javascript -->
+	<script src='smooth-scroll.js'></script>
+	<script>
+		smoothScroll.init({
+			speed: 1000,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			updateURL: true,
+			callbackBefore: function ( toggle, anchor ) {},
+			callbackAfter: function ( toggle, anchor ) {}
+		});
+	</script>
+
   </body>
 </html>
 

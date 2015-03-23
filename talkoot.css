@@ -2,6 +2,17 @@ html, body {
   height:100%;
 }
 
+h2 {
+	font-size: 2.6em;
+	color: #337ab7;
+	margin-bottom: 40px;
+}
+
+h3 {
+	color: #444;
+	font-size: 1.8em;
+}
+
 #menu {
 	position: fixed;
 	padding: 10px 0;
@@ -52,11 +63,24 @@ html, body {
 	padding-top: 140px;
 }
 
+#header-overlay {
+	background: #000;
+	opacity: 0.3;
+	height: 100%;
+}
+
 #header-contents {
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	text-align: center;
-	width: 100%;
+	max-width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	color: #fff;
+}
+
+#header-contents .img-responsive {
+    margin: 0 auto;
 }
 
 #talkoopaiva {
@@ -102,13 +126,36 @@ html, body {
 
 
 #jarjesta {
+	border-top: 1px dashed #ccc;
 	padding: 120px 0;
 }
 
 
 #talkoot {
 	padding: 80px 0;
+	background: #f3f3f3;
 }
+
+#talkoot .box {
+	background: #fff;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#talkoot .box p {
+	font-size: 1.2em;
+	padding: 0 20px 20px 20px;
+}
+
+#talkoot .box h3 {
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+#talkoot .box img {
+	margin-bottom: 20px;
+}
+
 
 #historia {
 	background: #fff;
@@ -152,10 +199,22 @@ html, body {
 	clear:both;
 }
 
-#footer {
+
+#fb-footer {
 	padding: 50px 0;
 	background: #f3f3f3;
 }
+
+#text-footer {
+	padding: 50px 0;
+	background: #ddd;
+	color: #333;
+}
+
+#text-footer a {
+	color: #666;
+}
+
 
 video#bgvid {
         position: absolute; right: 0; bottom: 0;
@@ -171,5 +230,38 @@ video#bgvid {
 
 .imagebox:hover .hovershow {
 	display: inline;
+}
+
+
+
+
+@media (max-width: 992px ) { 
+
+	video#bgvid, #header-overlay { display: none; }
+
+	#talkoopaiva {
+		padding: 60px 0;
+	}
+
+
+	#header-contents {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		left: 0;
+		top: 0;
+		display: block;
+		background: url(pad-tausta.jpg) no-repeat center;
+		background-size: cover;
+		padding: 150px 40px;
+		text-align: center;
+		color: #fff;
+		max-width: 100%;
+	}
+
+
+
+
 }
 
