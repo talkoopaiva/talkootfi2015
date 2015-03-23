@@ -10,21 +10,23 @@ if($_POST['secret']=="työnjuhla" and isset($_POST['form']) and ($_POST['lasku']
 	$send = $_POST['form'];
 
 
-	$message = "Hei {$send[kaverinimi]},<br>
-		<br>
-		Kaverisi {$send[omanimi]} on haastanut sinut järjestämään talkoot Talkoopäivänä 16.5.:<br>
-		<br>
+	$message = 'Hei {$send[kaverinimi]},<br/>
+		<br/>
+		Kaverisi {$send[omanimi]} on haastanut sinut järjestämään talkoot Talkoopäivänä 16.5.:<br/>
+		<br/>
 		<blockquote>{$send[viesti]}</blockquote><br>
 
-		Talkoopäivä on valtakunnallinen, vapaaehtoisvoimin etenevä liike, jonka tavoitteena on innostaa ihmiset tekemään asioita yhdessä ja luomaan Suomeen entistä vahvempaa tekemisen kulttuuria.<br>
-		<br>
-		Talkoopäivän sivuilta löytyvät kaikki 16.5. järjestettävät talkoot. Ehkä sieltä löytyy pian sinunkin talkoosi? Lisätietoa Talkoopäivästä ja talkoiden järjestämisestä löydät osoitteesta <a href=http://www.talkoot.fi>www.talkoot.fi</a><br>
-		<br>
-		Keväisin terveisin,<br>
-		{$send[omanimi]} ja Talkoopäivän puuhaväki<br>
-		<br>
-		info@talkoot.fi<br>
-		<a href=http://www.talkoot.fi>www.talkoot.fi</a>";
+		Talkoopäivä tulee jälleen 16.5. jolloin on aika kääriä hihat yhdessä. Onko sinun kaveri- tai työporukkasi Suomen talkoohenkisin? Vai onko kenties asuin- tai harrasteyhteisösi talkoomeininki vertaansa vailla? Osallistu Talkoopäivän haasteeseen ja lähde mukaan tekemään!<br/>
+		<br/>
+		Etsimme Suomen talkoohenkistä porukkaa, joka valitaan kaikkien talkoilijoiden joukosta - pidä siis huolta että talkoonne näkyvät ja kuuluvat eri kanavissa. Olemme läsnä <a href="https://www.facebook.com/talkoopaiva/">Facebookissa</a>, <a href="https://twitter.com/talkoopaiva">Twitterissä</a> ja <a href="https://instagram.com/talkoopaiva">Instagramissa</a> - muistakaa käyttää jakamassanne sisällössä #talkoopäivä ja #talkoot hashtageja.<br/>
+		<br/>
+		Sivuiltamme löytyvät kaikki 16.5. järjestettävät talkoot. Ehkä sieltä löytyy pian sinunkin talkoosi? Lisätietoa Talkoopäivästä ja talkoiden järjestämisestä löydät osoitteesta www.talkoot.fi
+		<br/>
+		Keväisin terveisin,<br/>
+		{$send[omanimi]} ja Talkoopäivän puuhaväki<br/>
+		<br/>
+		info@talkoot.fi<br/>
+		<a href=http://www.talkoot.fi>www.talkoot.fi</a>';
 
 
 
