@@ -3,6 +3,7 @@
 Template name: Haaste
 */
 
+var_dump($_POST);
 
 if($_POST['secret']=="työnjuhla" and isset($_POST['form']) and ($_POST['lasku'] == "7" or $_POST['lasku'] == "seitsemän")) :
 
@@ -10,7 +11,7 @@ if($_POST['secret']=="työnjuhla" and isset($_POST['form']) and ($_POST['lasku']
 	$send = $_POST['form'];
 
 
-	$message = 'Hei {$send[kaverinimi]},<br/>
+	$message = "Hei {$send[kaverinimi]},<br/>
 		<br/>
 		Kaverisi {$send[omanimi]} on haastanut sinut järjestämään talkoot Talkoopäivänä 16.5.:<br/>
 		<br/>
@@ -18,7 +19,7 @@ if($_POST['secret']=="työnjuhla" and isset($_POST['form']) and ($_POST['lasku']
 
 		Talkoopäivä tulee jälleen 16.5. jolloin on aika kääriä hihat yhdessä. Onko sinun kaveri- tai työporukkasi Suomen talkoohenkisin? Vai onko kenties asuin- tai harrasteyhteisösi talkoomeininki vertaansa vailla? Osallistu Talkoopäivän haasteeseen ja lähde mukaan tekemään!<br/>
 		<br/>
-		Etsimme Suomen talkoohenkistä porukkaa, joka valitaan kaikkien talkoilijoiden joukosta - pidä siis huolta että talkoonne näkyvät ja kuuluvat eri kanavissa. Olemme läsnä <a href="https://www.facebook.com/talkoopaiva/">Facebookissa</a>, <a href="https://twitter.com/talkoopaiva">Twitterissä</a> ja <a href="https://instagram.com/talkoopaiva">Instagramissa</a> - muistakaa käyttää jakamassanne sisällössä #talkoopäivä ja #talkoot hashtageja.<br/>
+		Etsimme Suomen talkoohenkistä porukkaa, joka valitaan kaikkien talkoilijoiden joukosta - pidä siis huolta että talkoonne näkyvät ja kuuluvat eri kanavissa. Olemme läsnä <a href=\"https://www.facebook.com/talkoopaiva/\">Facebookissa</a>, <a href=\"https://twitter.com/talkoopaiva\">Twitterissä</a> ja <a href=\"https://instagram.com/talkoopaiva\">Instagramissa</a> - muistakaa käyttää jakamassanne sisällössä #talkoopäivä ja #talkoot hashtageja.<br/>
 		<br/>
 		Sivuiltamme löytyvät kaikki 16.5. järjestettävät talkoot. Ehkä sieltä löytyy pian sinunkin talkoosi? Lisätietoa Talkoopäivästä ja talkoiden järjestämisestä löydät osoitteesta www.talkoot.fi
 		<br/>
@@ -26,7 +27,7 @@ if($_POST['secret']=="työnjuhla" and isset($_POST['form']) and ($_POST['lasku']
 		{$send[omanimi]} ja Talkoopäivän puuhaväki<br/>
 		<br/>
 		info@talkoot.fi<br/>
-		<a href=http://www.talkoot.fi>www.talkoot.fi</a>';
+		<a href=\"http://www.talkoot.fi\">www.talkoot.fi</a>";
 
 
 
