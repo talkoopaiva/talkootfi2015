@@ -3,8 +3,6 @@
 Template name: Haaste
 */
 
-var_dump($_POST);
-
 if($_POST['secret']=="työnjuhla" and isset($_POST['form']) and ($_POST['lasku'] == "7" or $_POST['lasku'] == "seitsemän")) :
 
 	// muuttujat

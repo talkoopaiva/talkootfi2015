@@ -18,8 +18,8 @@
   <body>
 
 
-	<div style="height: 5%; background-color: black"></div>
-	<iframe src="http://messis.fi<?= ($_GET['url'] ? $_GET['url'] : '/ngm') ?>" style="width: 100%; height: 94%" frameborder="no"></iframe>
+	<div style="height: 5%; background-color: black"><a href="http://messis.fi/uusi/?mode=talkoopaiva" target="kartta">Järjestä talkoot</a></div>
+	<iframe name="kartta" src="http://messis.fi/wp-content/themes/myeti/ngm/index.html?mode=talkoopaiva<?= ($_GET['url'] ? $_GET['url'] : '') ?>" style="width: 100%; height: 94%" frameborder="no"></iframe>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>

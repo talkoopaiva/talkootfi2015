@@ -184,7 +184,8 @@ Mukana oli yli 350 osallistujaa eli joka kymmenes kunnan asukas.</p>
           <div class="col-md-6 col-md-offset-3 text-center">
             <h2>Osallistu ja järjestä talkoot 16.5.</h2>
             <p class="lead">Talkoot on ainutlaatuinen tapa kerätä porukka koolle, osallistua, pitää hauskaa ja luoda yhdessä. Tule mukaan!</p>
-            <a href="kartta/?url=/fi/uusi/?mode=talkoot" class="btn btn-lg btn-primary">Järjestä talkoot</a>
+            <a href="https://docs.google.com/forms/d/1VrmD8I4DfJzC8TNJnbzQx5Jqm1rYSeaYEXW5JrwFmX0/viewform" class="btn btn-lg btn-primary">Järjestä talkoot</a>
+<!--            <a href="kartta/?url=/fi/uusi/?mode=talkoot" class="btn btn-lg btn-primary">Järjestä talkoot</a> -->
             <p><br><br><a href="Talkoo-opas.pdf"><i class="glyphicon glyphicon-download-alt"></i> Lataa talkoonjärjestäjän opas</a></p>
           </div>
         </div>
